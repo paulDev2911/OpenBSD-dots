@@ -1,6 +1,6 @@
 ! Xterm
 XTerm*faceName:         monospace
-XTerm*faceSize:         11
+XTerm*faceSize:         8
 XTerm*background:       #000000
 XTerm*foreground:       #aaaaaa
 XTerm*cursorColor:      #ffffff
