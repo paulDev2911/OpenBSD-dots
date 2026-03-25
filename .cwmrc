@@ -1,0 +1,6 @@
+borderwidth 2
+bind-key 4-Return xterm
+bind-key 4-p "dmenu_run"
+bind-key 4-q window-delete
+bind-key 4-Tab window-cycle
+bind-key 4-f window-fullscreen
