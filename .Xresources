@@ -10,7 +10,12 @@ XTerm*scrollBar:        false
 XTerm*bellIsUrgent:     true
 XTerm*borderWidth:      0
 
-! Farben (ähnlich wie deine lemonbar)
+! Clipboard
+XTerm*VT100.translations: #override \
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+! Farben
 XTerm*color0:           #000000
 XTerm*color1:           #cc0000
 XTerm*color2:           #4e9a06
