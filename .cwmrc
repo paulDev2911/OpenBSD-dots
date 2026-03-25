@@ -8,8 +8,7 @@ gap 20 0 0 0
 snapdist 8
 
 bind-key 4-Return    xterm
-bind-key 4-p         dmenu_run
-
+bind-key 4-p         "dmenu_run -b -nb '#000000' -nf '#aaaaaa' -sb '#ffffff' -sf '#000000' -fn 'monospace:size=10'"
 bind-key 4-q         window-delete
 bind-key 4-f         window-fullscreen
 bind-key 4-m         window-maximize
