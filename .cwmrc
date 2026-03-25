@@ -1,7 +1,7 @@
 borderwidth 2
-color border-active   #ffffff
-color border-inactive #333333
-color background      "black"
+color border-active   '#ffffff'
+color border-inactive '#333333'
+color background      black
 
 gap 20 0 0 0
 
